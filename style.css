@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+
+   
+    body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("https://thumbs.dreamstime.com/b/wild-flowers-plant-summer-autumn-nature-background-banner-website-55976971.jpg");
+    }
+    .box{
+        width: 500px;
+    background: #fafafa;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.5);
+    }
+    h1 {
+        color: rgb(0, 0, 0, 0.7);
+        font-weight: bold;
+        font-size: 36px;
+        padding: 30px 0;
+        
+      }
+    .content{
+        padding: 0 30px;
+    }
+    .inputH {
+        background: #fff;
+        border-radius: 12px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .inputH label {
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+
+    .inputW {
+        background: #fff;
+        border-radius: 12px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    .inputW label {
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    
